@@ -1,9 +1,11 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div id="app">
+    <nav class="p-4 bg-gray-100">
+      <router-link to="/" class="mr-4 font-bold text-gray-700 hover:text-blue-600" exact>Dashboard</router-link>
+      <router-link to="/customers" class="font-bold text-gray-700 hover:text-blue-600">Customers</router-link>
+    </nav>
+    <router-view />
+  </div>
 </template>
 
 <style>
