@@ -9,12 +9,12 @@ export default {
     <h2 class="text-2xl font-bold mb-4">Customers</h2>
 
     <!-- Add Customer Form -->
-    <form @submit.prevent="addCustomer" class="mb-6 space-y-2 bg-white p-4 rounded shadow">
-      <div class="flex space-x-4">
+    <form @submit.prevent="addCustomer" class="mb-6 space-y-2 bg-white p-2 rounded shadow">
+      <div class="flex space-x-2 ">
         <input v-model="form.name" type="text" placeholder="Name" class="input" required />
         <input v-model="form.email" type="email" placeholder="Email" class="input" required />
         <input v-model="form.phone" type="text" placeholder="Phone" class="input" required />
-        <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Add</button>
+        <button class="bg-pink-600 text-white px-8 py-0.5 rounded  hover:bg-pink-300">New Record</button>
       </div>
     </form>
 
