@@ -1,10 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Customers from '../pages/Customers.vue';
-import Dashboard from '../pages/Dashboard.vue';
+import MainDashboard from '../pages/Dashboard.vue';
+import CustomerList from '../pages/Customers.vue';
+import ProductsPage from '../pages/ProductAdd.vue'; // ✅ Rename for clarity
 
 const routes = [
-  { path: '/', name: 'Dashboard', component: Dashboard },
-  { path: '/customers', name: 'Customers', component: Customers },
+  { path: '/', name: 'Dashboard', component: MainDashboard },
+  { path: '/customers', name: 'Customers', component: CustomerList },
+  { path: '/products', name: 'Products', component: ProductsPage }, // ✅ consistent name
 ];
 
 const router = createRouter({
