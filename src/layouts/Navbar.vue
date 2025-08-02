@@ -2,9 +2,9 @@
   <header class="bg-pink-600 text-white p-4 shadow-md">
     <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
       <!-- Left: Logo + Title -->
-      <div class="flex items-center justify-between">
-        <div class="flex items-center gap-3">
-          <img src="/images/yiksi.png" alt="logo" class="h-10 w-10 object-contain" />
+      <div class="flex items-center justify-between ">
+        <div class="flex items-center gap-3 border-collapse">
+          <img src="/images/yiksi.png" alt="logo" class="h-10 w-10 object-contain border-collapse" />
           <h1 class="text-xl font-bold">Customer Management</h1>
         </div>
 
