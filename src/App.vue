@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <nav class="p-4 bg-gray-100">
+    <!-- <nav class="p-4 bg-gray-100">
       <router-link to="/" class="mr-4 font-bold text-gray-700 hover:text-blue-600" exact>Dashboard</router-link>
       <router-link to="/customers" class="font-bold text-gray-700 hover:text-blue-600">Customers</router-link>
 
       <router-link to="/products" class="font-bold text-gray-700 hover:text-blue-600">Products</router-link>
-    </nav>
+    </nav> -->
     <router-view />
   </div>
 </template>

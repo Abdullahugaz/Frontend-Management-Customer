@@ -56,7 +56,7 @@ export default {
 <script setup>
 import { ref, onMounted } from 'vue'
 import api from '../services/api.js'
-import DefaultLayout from '../layouts/DefaultLayout.vue'
+import DefaultLayout from '../layouts/Layout.vue'
 
 const products = ref([])
 const form = ref({ name: '', description: '', price: '', id: null })

@@ -49,7 +49,7 @@ export default {
 <script setup>
 import { onMounted, ref } from 'vue'
 import api from '../services/api.js'
-import DefaultLayout from '../layouts/DefaultLayout.vue'
+import DefaultLayout from '../layouts/Layout.vue'
 
 const customers = ref([])
 const form = ref({ name: '', email: '', phone: '' })
